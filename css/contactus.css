@@ -1,0 +1,58 @@
+body {
+    text-transform: uppercase ;
+    font-family: "Carrois Gothic", Georgia;
+    margin: 0px;
+}
+
+#logo {
+    position:absolute;
+    margin: 8px 0px 0px 8px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+
+nav {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+nav li {
+    display: inline-block;
+    padding: 0px 5px 0px 40px;
+    
+}
+
+h2 {
+     font-size: 15px;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.fillit {
+	text-align: center;
+	margin: 0 auto;
+	width: 500px;
+	padding-top: 100px;
+}
+
+.fillit label {
+	font-size: 13px;
+	padding: 0px;
+}
+
+.fillit input {
+	
+}
+

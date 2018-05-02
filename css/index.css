@@ -1,0 +1,105 @@
+body {
+    text-transform: uppercase ;
+    font-family: "Carrois Gothic", Georgia;
+    margin: 0px;
+}
+
+#logo {
+    position:absolute;
+    margin: 8px 0px 0px 8px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+
+nav {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+		z-index: 4;
+}
+nav li {
+    display: inline-block;
+    padding: 0px 5px 0px 40px;
+    
+}
+
+h2 {
+     font-size: 15px;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#aboutus h2{
+    position: absolute;
+    right: 20px;
+    top: 200px;
+}
+
+#rightarrow {
+    height: 30px;
+    display:block;
+    margin-top: -25px;
+    margin-left: 68px;
+}
+
+#aboutus a{
+    text-decoration: none;
+    color: black;
+}
+
+#attempt {
+    position: relative;
+    width: inherit;
+    height: 800px;
+}
+
+#attempt h1{
+    position: absolute;
+    top: 300px; 
+    left: 20px;
+    font-size: 70px;
+    font-weight: bolder;
+    
+}
+
+#viewgallery{
+    position:absolute;
+    left: 100px;
+    top: 500px;
+        
+}
+
+#viewgallery a{
+    text-decoration: none;
+    color: black;
+}
+
+#leftarrow {
+    display:block;
+    margin-left: -36px;
+    margin-bottom: -22px; 
+    height: 30px;
+    
+}
+
+#design {
+    position:absolute;
+    top: 392px;
+    width: 100%;
+    height: 500px;
+    z-index: -2;
+    opacity: .25;
+}
+

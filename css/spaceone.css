@@ -1,0 +1,108 @@
+body {
+    text-transform: uppercase;
+    font-family: "Carrois Gothic", Georgia;
+}
+
+#logo {
+    position:absolute;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+
+nav {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+nav li {
+    display: inline-block;
+    padding: 0px 5px 0px 40px;
+    
+}
+
+h2 {
+     font-size: 15px;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    position: relative;
+}
+
+.spaceone {
+    position: absolute;
+    width: 360px;
+    top: 100px;
+    left: 40px
+}
+
+.info {
+    width: 450px;
+    position: absolute;
+    right: 220px;
+    top: 92px;
+    margin: 0px;
+}
+
+.info h1 {
+    margin: 0px;
+}
+
+.info h6 {
+    margin: 0px;
+    font-size: 13px;
+}
+
+.info p {
+    font-size: 10px;
+    margin: 20px 0px;
+    text-transform: none;
+}
+
+.scroller {
+    position: absolute;
+    left: 550px;
+    top: 360px
+    
+}
+
+.scroller h3 {
+    font-size: 18px
+}
+
+.rightarrow {
+    height: 30px;
+    display: block;
+    margin: -27px 0px 0px 155px;
+    
+}
+
+.slide {
+    width: 130px;
+    display: inline-block;
+    margin: 0px 50px 0px 0px;
+}
+
+.carousel {
+    position: absolute;
+    width: 520px;
+    height: 200px;
+    overflow: auto;
+    white-space: nowrap;
+    top: 90px;
+}
